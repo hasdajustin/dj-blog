@@ -1,0 +1,40 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# Django-specific
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+*.log
+
+# Secret files
+.env
+*.env
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS and Windows
+.DS_Store
+Thumbs.db
+
+# Pytest / coverage
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+test-results.xml
+.pytest_cache/
